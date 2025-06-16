@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Build artifacts
+dist/
+
+# Environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local # Ignore all .env.something.local files
+.env.development
+.env.production
+.env.test
+.env.local # Generic local .env file
+
+# Drizzle ORM migrations
+drizzle/ # This directory contains generated SQL migration files
+
+# Test coverage
+coverage/
+
+# Editor/IDE specific files
+.vscode/ # VS Code settings (unless you want to share specific settings like recommended extensions)
+.idea/ # IntelliJ IDEA
+*.iml # IntelliJ IDEA
+*.project # Eclipse
+*.swp # Vim swap files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Logs
+*.log
+
+# TypeScript specific
+*.tsbuildinfo
